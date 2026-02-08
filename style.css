@@ -176,10 +176,6 @@ main {
 /* ==================== FOOTER ==================== */
 
 footer {
-    position: flex;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background-color: var(--color-primary);
     color: var(--color-white);
     text-align: center;
@@ -189,8 +185,7 @@ footer {
 
 /* ==================== RESPONSIVE DESIGN ==================== */
 
-@media (min-width: 1024px) {
-
+@media (min-width: 768px) {
     main {
         padding: var(--spacing-xl);
     }
@@ -214,16 +209,11 @@ footer {
     }
 
     .social-links ul {
-        gap: var(--spacing-sm);
-        align-items: center;
-    }
-
-    .social-links li {
-        width: 75%;
+        gap: 15px;
     }
 
     .social-link {
-        padding: 14px 14px;
+        padding: 12px 12px;
         font-size: 12px;
     }
 
